@@ -242,6 +242,16 @@ return [
         'beta' => false,
         'mock' => false
     ],
+    'pipedrive' => [
+        'name' => 'Pipedrive',
+        'developers' => 'https://developers.pipedrive.com/docs/api/v1/Oauth',
+        'icon' => 'icon-pipedrive',
+        'enabled' => true,
+        'sandbox' => false,
+        'form' => false,
+        'beta' => false,
+        'mock' => false,
+    ],
     'podio' => [
         'name' => 'Podio',
         'developers' => 'https://developers.podio.com/doc/oauth-authorization',
@@ -398,7 +408,7 @@ return [
     //     'beta' => false,
     //     'mock' => false,
     // ],
-
+    
     // Keep Last
     'mock' => [
         'name' => 'Mock',
